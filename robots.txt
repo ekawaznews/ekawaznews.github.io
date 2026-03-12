@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ekawaznews.github.io/sitemap.xml

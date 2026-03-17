@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>Ek Awaz News | ایک آواز نیوز</title>
+    <link>https://ekawaznews.github.io</link>
+    <description>Pakistan's most trusted news source. Breaking news, politics, sports, entertainment and more — ایک آواز نیوز | The Voice of Pakistan</description>
+    <language>en-PK</language>
+    <copyright>Copyright 2026 Ek Awaz Media Group. All rights reserved.</copyright>
+    <managingEditor>ekawaznews24@gmail.com (Ek Awaz News)</managingEditor>
+    <webMaster>ekawaznews24@gmail.com (Ek Awaz News)</webMaster>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0500</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 +0500</pubDate>
+    <ttl>60</ttl>
+    <image>
+      <url>https://via.placeholder.com/144x144/CC0000/ffffff?text=EA</url>
+      <title>Ek Awaz News</title>
+      <link>https://ekawaznews.github.io</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <atom:link href="https://ekawaznews.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- ============================================================
+         NOTE: This is a static RSS feed template.
+         For a live RSS feed that auto-updates with new articles,
+         add this to your index.html <head>:
+
+         <link rel="alternate" type="application/rss+xml"
+               title="Ek Awaz News RSS Feed"
+               href="https://ekawaznews.github.io/rss.xml">
+
+         To generate a dynamic RSS feed, use the "Export RSS" button
+         that will be added in the admin panel, which generates and
+         downloads an updated rss.xml you can push to GitHub.
+         ============================================================ -->
+
+    <item>
+      <title>Pakistan Economy Grows at Record Pace in Q3 2026</title>
+      <link>https://ekawaznews.github.io</link>
+      <description>The Pakistani economy has shown remarkable growth in the third quarter of 2026, with GDP expanding at a record pace driven by increased foreign investment and strong export performance.</description>
+      <pubDate>Tue, 17 Mar 2026 10:00:00 +0500</pubDate>
+      <guid isPermaLink="false">ekawaz-1742000000</guid>
+      <dc:creator>Ek Awaz Staff</dc:creator>
+      <category>Economy</category>
+      <category>National</category>
+    </item>
+
+    <item>
+      <title>Senate Passes New Digital Security Bill with Unanimous Vote</title>
+      <link>https://ekawaznews.github.io</link>
+      <description>The upper house of Pakistan's parliament passed comprehensive cybersecurity legislation designed to protect the nation's digital infrastructure and combat online threats.</description>
+      <pubDate>Mon, 16 Mar 2026 14:30:00 +0500</pubDate>
+      <guid isPermaLink="false">ekawaz-1741950000</guid>
+      <dc:creator>Ek Awaz Staff</dc:creator>
+      <category>Politics</category>
+      <category>Government</category>
+    </item>
+
+    <item>
+      <title>National Cricket Team Wins Asia Cup Series Against South Africa</title>
+      <link>https://ekawaznews.github.io</link>
+      <description>Pakistan's national cricket team clinched a historic series victory against South Africa in a thrilling final match, cementing their position as Asia Cup champions.</description>
+      <pubDate>Sun, 15 Mar 2026 18:00:00 +0500</pubDate>
+      <guid isPermaLink="false">ekawaz-1741860000</guid>
+      <dc:creator>Ek Awaz Staff</dc:creator>
+      <category>Sports</category>
+      <category>Cricket</category>
+    </item>
+
+  </channel>
+</rss>

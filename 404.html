@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Ek Awaz News</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  :root {
+    --red: #CC0000;
+    --red-dark: #990000;
+    --dark: #1a1a1a;
+    --off-white: #f8f5f0;
+    --border: #ddd;
+    --mid-gray: #888;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Source Sans 3', Georgia, sans-serif;
+    background: var(--off-white);
+    color: var(--dark);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 3px solid var(--red);
+  }
+  .logo-circle {
+    width: 52px; height: 52px;
+    background: var(--red);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .logo-circle span {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .logo-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--red);
+  }
+  .logo-text p {
+    font-size: 11px;
+    color: var(--mid-gray);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  /* ── NAV BAR ── */
+  .nav-bar {
+    background: var(--red);
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav-bar::-webkit-scrollbar { display: none; }
+  .nav-item {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    padding: 12px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .nav-item:hover { background: rgba(0,0,0,0.2); color: white; }
+
+  /* ── MAIN 404 ── */
+  .main-404 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 24px;
+  }
+  .error-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    padding: 56px 48px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .error-card::before {
+    content: '404';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 180px;
+    font-weight: 900;
+    color: var(--red);
+    opacity: 0.05;
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+  }
+  .error-icon {
+    width: 80px; height: 80px;
+    background: #fee2e2;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 24px;
+  }
+  .error-icon i { font-size: 34px; color: var(--red); }
+  .error-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--red);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .error-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 14px;
+  }
+  .error-desc {
+    font-size: 15px;
+    color: var(--mid-gray);
+    line-height: 1.7;
+    margin-bottom: 32px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: background 0.2s, transform 0.2s;
+    margin: 0 6px 12px;
+  }
+  .btn-home:hover { background: var(--red-dark); transform: translateY(-2px); }
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    color: var(--dark);
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid var(--border);
+    transition: border-color 0.2s, transform 0.2s;
+    margin: 0 6px 12px;
+    cursor: pointer;
+  }
+  .btn-secondary:hover { border-color: var(--red); color: var(--red); transform: translateY(-2px); }
+
+  /* ── QUICK LINKS ── */
+  .quick-links {
+    margin-top: 36px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+  }
+  .quick-links h4 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--mid-gray);
+    margin-bottom: 16px;
+  }
+  .quick-links-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .quick-link-tag {
+    background: var(--off-white);
+    color: var(--dark);
+    text-decoration: none;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .quick-link-tag:hover { background: var(--red); color: white; border-color: var(--red); }
+
+  /* ── SEARCH ── */
+  .search-section {
+    margin-top: 24px;
+  }
+  .search-section p { font-size: 13px; color: var(--mid-gray); margin-bottom: 10px; }
+  .search-box-404 {
+    display: flex;
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 360px;
+    margin: 0 auto;
+    transition: border-color 0.2s;
+  }
+  .search-box-404:focus-within { border-color: var(--red); }
+  .search-box-404 input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    font-size: 14px;
+    background: white;
+  }
+  .search-box-404 button {
+    background: var(--red);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+  }
+  .search-box-404 button:hover { background: var(--red-dark); }
+
+  /* ── FOOTER ── */
+  .footer-mini {
+    background: var(--dark);
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 12px;
+  }
+  .footer-mini strong { color: rgba(255,255,255,0.8); }
+  .footer-mini .red-bar {
+    background: var(--red);
+    padding: 6px;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    .error-card { padding: 36px 24px; }
+    .error-number { font-size: 54px; }
+    .error-title { font-size: 20px; }
+    .header { padding: 10px 14px; }
+    .logo-text h1 { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo-circle">
+    <span>ایک<br>آواز</span>
+  </div>
+  <div class="logo-text">
+    <h1>Ek Awaz News</h1>
+    <p>ایک آواز نیوز | The Voice of Pakistan</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<div class="nav-bar">
+  <a class="nav-item" href="/">🏠 Home</a>
+  <a class="nav-item" href="/?cat=politics">Politics</a>
+  <a class="nav-item" href="/?cat=sports">Sports</a>
+  <a class="nav-item" href="/?cat=national">National</a>
+  <a class="nav-item" href="/?cat=international">International</a>
+  <a class="nav-item" href="/?cat=entertainment">Entertainment</a>
+  <a class="nav-item" href="/?cat=weather">Weather</a>
+</div>
+
+<!-- MAIN -->
+<div class="main-404">
+  <div class="error-card">
+    <div class="error-icon">
+      <i class="fas fa-newspaper"></i>
+    </div>
+    <div class="error-number">404</div>
+    <h2 class="error-title">Page Not Found</h2>
+    <p class="error-desc">
+      The page you're looking for has been moved, deleted, or never existed.
+      Perhaps the news story you were reading has been updated or archived.
+    </p>
+
+    <div>
+      <a href="/" class="btn-home">
+        <i class="fas fa-home"></i> Back to Home
+      </a>
+      <button onclick="history.back()" class="btn-secondary">
+        <i class="fas fa-arrow-left"></i> Go Back
+      </button>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-section">
+      <p>Or search for what you were looking for:</p>
+      <div class="search-box-404">
+        <input type="text" id="search404" placeholder="Search Ek Awaz News..." onkeydown="if(event.key==='Enter')go404Search()">
+        <button onclick="go404Search()"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="quick-links">
+      <h4>Browse by Category</h4>
+      <div class="quick-links-grid">
+        <a href="/?cat=politics" class="quick-link-tag"><i class="fas fa-landmark"></i> Politics</a>
+        <a href="/?cat=sports" class="quick-link-tag"><i class="fas fa-futbol"></i> Sports</a>
+        <a href="/?cat=national" class="quick-link-tag"><i class="fas fa-flag"></i> National</a>
+        <a href="/?cat=international" class="quick-link-tag"><i class="fas fa-globe"></i> International</a>
+        <a href="/?cat=entertainment" class="quick-link-tag"><i class="fas fa-film"></i> Entertainment</a>
+        <a href="/?cat=weather" class="quick-link-tag"><i class="fas fa-cloud-sun"></i> Weather</a>
+        <a href="/?cat=government" class="quick-link-tag"><i class="fas fa-building"></i> Government</a>
+        <a href="/?cat=editorials" class="quick-link-tag"><i class="fas fa-pen"></i> Editorials</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-mini">
+    <p>This website is owned by <strong>Umer Javed</strong>. All rights reserved © <span id="yr"></span> <strong>Ek Awaz News</strong>.</p>
+    <p style="margin-top:6px;">Powered by Ek Awaz Media Group | ایک آواز میڈیا گروپ</p>
+  </div>
+  <div class="footer-mini red-bar">
+    <i class="fas fa-shield-alt"></i> Verified & Trusted News Source | ایک آواز نیوز | قابل اعتماد خبریں
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  function go404Search() {
+    const q = document.getElementById('search404').value.trim();
+    if (q) window.location.href = '/?search=' + encodeURIComponent(q);
+  }
+
+  // Register service worker if available
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').catch(() => {});
+  }
+</script>
+</body>
+</html>

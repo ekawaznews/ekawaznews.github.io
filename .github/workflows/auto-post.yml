@@ -1,0 +1,76 @@
+name: Ek Awaz Auto-Publisher
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 06:00 PKT — Batch A: politics, government, sports (+ daily special)
+    - cron: '0 7 * * *'   # 12:00 PKT — Batch B: international, entertainment, economy, education
+    - cron: '0 13 * * *'  # 18:00 PKT — Batch C: weather, social, 3x Urdu
+  workflow_dispatch:       # Manual trigger from GitHub Actions tab
+    inputs:
+      batch:
+        description: 'Batch to run manually (A, B, or C)'
+        required: false
+        type: choice
+        default: 'A'
+        options: ['A', 'B', 'C']
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write      # Needed to push article HTML pages
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Determine which batch this run is
+        id: batch
+        run: |
+          SCHEDULE="${{ github.event.schedule }}"
+          INPUT_BATCH="${{ github.event.inputs.batch }}"
+          if [ -n "$INPUT_BATCH" ]; then
+            BATCH="$INPUT_BATCH"
+          else
+            case "$SCHEDULE" in
+              "0 1 * * *")  BATCH="A" ;;
+              "0 7 * * *")  BATCH="B" ;;
+              "0 13 * * *") BATCH="C" ;;
+              *) BATCH="A" ;;
+            esac
+          fi
+          echo "Resolved batch: $BATCH"
+          echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
+
+      - name: Run auto-publisher
+        env:
+          BATCH:                    ${{ steps.batch.outputs.batch }}
+          GROQ_API_KEY:              ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY:          ${{ secrets.CEREBRAS_API_KEY }}
+          OPENROUTER_API_KEY:        ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY:            ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY:            ${{ secrets.PEXELS_API_KEY }}
+          CRICAPI_KEY:               ${{ secrets.CRICAPI_KEY }}
+          FOOTBALL_API_KEY:          ${{ secrets.FOOTBALL_API_KEY }}
+          CLOUDINARY_CLOUD_NAME:     ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_UPLOAD_PRESET:  ${{ secrets.CLOUDINARY_UPLOAD_PRESET }}
+        run: node autopost.js
+
+      - name: Commit and push article pages
+        run: |
+          git config user.name "Ek Awaz Bot"
+          git config user.email "bot@ekawaznews.github.io"
+          git add news/
+          git diff --cached --quiet || git commit -m "Auto-publish: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

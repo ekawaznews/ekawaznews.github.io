@@ -1,0 +1,25 @@
+name: Fix Categories (manual)
+
+# Run from the Actions tab. Safe to run any time: it only changes posts whose category is wrong.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only (change nothing)?'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  fix-categories:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fix categories
+        env:
+          DRY_RUN: ${{ inputs.dry_run && 'yes' || 'no' }}
+        run: node fix-categories.js

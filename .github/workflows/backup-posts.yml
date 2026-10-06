@@ -1,0 +1,33 @@
+name: Ek Awaz Weekly Backup
+
+# Saves a compressed copy of every post into backups/ (keeps the newest 6).
+on:
+  schedule:
+    - cron: '30 3 * * 0'
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Back up posts
+        run: node backup-posts.js
+      - name: Commit backup
+        run: |
+          git config user.name  "Ek Awaz Bot"
+          git config user.email "bot@ekawaznews.github.io"
+          git add backups/
+          if git diff --cached --quiet; then echo "No backup changes"; exit 0; fi
+          git commit -m "Weekly backup: $(date -u '+%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+            git rebase --abort 2>/dev/null || true; sleep $((i * 6))
+          done
+          exit 1

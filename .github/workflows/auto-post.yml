@@ -1,0 +1,101 @@
+name: Ek Awaz Auto-Publisher
+
+# 3 daily batches + 4 "catch-up" runs. Catch-up runs only fill articles that are still
+# missing today, so a failed run, a dropped schedule or a used-up AI quota heals itself.
+on:
+  schedule:
+    - cron: '17 0 * * *'    # Batch A  ~05:17 Pakistan time
+    - cron: '23 6 * * *'    # Batch B  ~11:23
+    - cron: '41 12 * * *'   # Batch C  ~17:41 (includes the Daily News Digest)
+    - cron: '14 3 * * *'    # catch-up ~08:14
+    - cron: '52 9 * * *'    # catch-up ~14:52
+    - cron: '20 15 * * *'   # catch-up ~20:20
+    - cron: '35 21 * * *'   # catch-up ~02:35 (after the Gemini daily quota reset)
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 'Which batch to run (catchup = fill every missing article due today)'
+        required: false
+        type: choice
+        default: 'catchup'
+        options: ['A', 'B', 'C', 'catchup']
+
+concurrency:
+  group: ek-awaz-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          # no "cache: npm" here: the repo has no package-lock.json and that option would fail
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Decide which batch to run
+        id: batch
+        run: |
+          SCHEDULE="${{ github.event.schedule }}"
+          INPUT="${{ github.event.inputs.batch }}"
+          if [ -n "$INPUT" ]; then BATCH="$INPUT"
+          else
+            case "$SCHEDULE" in
+              "17 0 * * *")  BATCH="A" ;;
+              "23 6 * * *")  BATCH="B" ;;
+              "41 12 * * *") BATCH="C" ;;
+              *)             BATCH="catchup" ;;
+            esac
+          fi
+          echo "Batch for this run: $BATCH"
+          echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
+
+      - name: Write and publish articles (retries by itself)
+        env:
+          BATCH:                     ${{ steps.batch.outputs.batch }}
+          GEMINI_API_KEY:            ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2:          ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3:          ${{ secrets.GEMINI_API_KEY_3 }}
+          PEXELS_API_KEY:            ${{ secrets.PEXELS_API_KEY }}
+          CRICAPI_KEY:               ${{ secrets.CRICAPI_KEY }}
+          FOOTBALL_API_KEY:          ${{ secrets.FOOTBALL_API_KEY }}
+          CLOUDINARY_CLOUD_NAME:     ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_UPLOAD_PRESET:  ${{ secrets.CLOUDINARY_UPLOAD_PRESET }}
+        run: |
+          code=0
+          for attempt in 1 2 3; do
+            echo "::group::Attempt $attempt"
+            set +e; node autopost.js; code=$?; set -e
+            echo "::endgroup::"
+            # 0 = everything published, 1 = set-up problem (stop), 3 = some articles still missing
+            if [ "$code" -eq 0 ] || [ "$code" -eq 1 ]; then break; fi
+            if [ "$attempt" -lt 3 ]; then echo "Some articles are still missing - waiting 4 minutes, then trying again"; sleep 240; fi
+          done
+          echo "Final exit code: $code"
+          if [ "$code" -eq 1 ]; then exit 1; fi
+          exit 0
+
+      - name: Commit and push the new pages
+        if: always()
+        run: |
+          git config user.name  "Ek Awaz Bot"
+          git config user.email "bot@ekawaznews.github.io"
+          git add news/
+          if git diff --cached --quiet; then echo "No new pages to commit"; exit 0; fi
+          git commit -m "Auto-publish ${{ steps.batch.outputs.batch }}: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+            echo "Push failed (attempt $i) - retrying"; git rebase --abort 2>/dev/null || true; sleep $((i * 6))
+          done
+          echo "Could not push after 5 attempts"; exit 1

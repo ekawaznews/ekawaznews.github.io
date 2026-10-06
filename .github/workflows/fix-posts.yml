@@ -1,0 +1,44 @@
+name: Fix Existing Posts (manual)
+
+# Run from the Actions tab. Everything risky is OFF unless you tick it.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only (change nothing)?'
+        required: false
+        type: boolean
+        default: true
+      delete_duplicates:
+        description: 'Delete duplicate posts (keeps the oldest)?'
+        required: false
+        type: boolean
+        default: false
+      delete_broken:
+        description: 'Delete damaged posts (no title/body)?'
+        required: false
+        type: boolean
+        default: false
+      rewrite_short:
+        description: 'Rewrite very short articles with Gemini (uses your Gemini quota)?'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fix posts
+        env:
+          DRY_RUN:           ${{ inputs.dry_run && 'yes' || 'no' }}
+          DELETE_DUPLICATES: ${{ inputs.delete_duplicates && 'yes' || 'no' }}
+          DELETE_BROKEN:     ${{ inputs.delete_broken && 'yes' || 'no' }}
+          REWRITE_SHORT:     ${{ inputs.rewrite_short && 'yes' || 'no' }}
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
+        run: node fix-existing-posts.js

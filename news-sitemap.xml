@@ -1,8 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url><loc>https://ekawaznews.github.io/news/pakistan-pm-urges-unity-peace-in-message-marking-day-of-arafat-during-1779834189850.html</loc><news:news><news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication><news:publication_date>2026-05-26T22:23:09.026Z</news:publication_date><news:title>Pakistan PM urges unity, peace in message marking Day of Arafat during</news:title><news:keywords>Politics, Pakistan, Pakistani News, Ek Awaz News</news:keywords></news:news><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ekawaznews.github.io/news/pakistan-interior-minister-lauds-hajj-arrangements-thanks-saudi-crown-1779820151415.html</loc><news:news><news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication><news:publication_date>2026-05-26T18:29:10.634Z</news:publication_date><news:title>Pakistan interior minister lauds Hajj arrangements, thanks Saudi crown</news:title><news:keywords>International, Pakistan, Pakistani News, Ek Awaz News</news:keywords></news:news><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ekawaznews.github.io/news/amd-zen-7-ip-to-use-tsmc-a14-node-and-more-advanced-packaging-1779767508551.html</loc><news:news><news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication><news:publication_date>2026-05-26T03:51:47.818Z</news:publication_date><news:title>AMD Zen 7 IP to Use TSMC A14 Node and More Advanced Packaging</news:title><news:keywords>International, Pakistan, Pakistani News, Ek Awaz News</news:keywords></news:news><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ekawaznews.github.io/news/iranians-find-peace-and-safety-in-mecca-during-hajj-1779743563030.html</loc><news:news><news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication><news:publication_date>2026-05-25T21:12:42.404Z</news:publication_date><news:title>Iranians find peace and safety in Mecca during hajj</news:title><news:keywords>Home / General, Pakistan, Pakistani News, Ek Awaz News</news:keywords></news:news><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ekawaznews.github.io/news/17-dead-10-injured-in-pakistan-as-van-hits-parked-bus-1779743555963.html</loc><news:news><news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication><news:publication_date>2026-05-25T21:12:35.534Z</news:publication_date><news:title>17 dead, 10 injured in Pakistan as van hits parked bus</news:title><news:keywords>National, Pakistan, Pakistani News, Ek Awaz News</news:keywords></news:news><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/national-roundup-pti-march-advances-court-proceedings-and-weather-aler-1791252699835.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-06T02:11:39.610Z</news:publication_date>
+      <news:title>National Roundup: PTI March Advances, Court Proceedings and Weather Alerts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/four-day-weather-outlook-across-major-cities-1791252638112.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-06T02:10:37.776Z</news:publication_date>
+      <news:title>Four Day Weather Outlook Across Major Cities</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/lionel-messi-prepares-for-final-argentina-match-1791252484012.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-06T02:08:03.583Z</news:publication_date>
+      <news:title>Lionel Messi prepares for final Argentina match</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/imran-khan-supporters-launch-islamabad-march-following-breakdown-in-of-1791252147206.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-06T02:02:26.984Z</news:publication_date>
+      <news:title>Imran Khan Supporters Launch Islamabad March Following Breakdown in Official Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1791233945937.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T20:59:02.937Z</news:publication_date>
+      <news:title>مکہ دفاعی اتحاد کا ہنگامی اجلاس: سعودی عرب میں فوجی تعیناتی کی منظوری</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/farhan-to-captain-pakistan-in-t20is-afridi-retains-odi-lead-1791233876816.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T20:57:55.816Z</news:publication_date>
+      <news:title>Farhan to Captain Pakistan in T20Is, Afridi Retains ODI Lead</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/multan-breaks-48year-rainfall-record-amid-heavy-downpour-1791212575799.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T15:02:50.799Z</news:publication_date>
+      <news:title>Multan Breaks 48‑Year Rainfall Record Amid Heavy Downpour</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistans-career-landscape-opportunities-and-challenges-in-focus-1791212511807.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T15:01:48.807Z</news:publication_date>
+      <news:title>Pakistan's Career Landscape: Opportunities and Challenges in Focus</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/kcci-leadership-faces-challenge-of-unifying-karachis-diverse-business--1791212423309.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T15:00:21.310Z</news:publication_date>
+      <news:title>KCCI Leadership Faces Challenge of Unifying Karachi's Diverse Business Community</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/dancers-from-celebrated-disco-photo-reunited-after-five-decades-1791212385838.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T14:59:44.838Z</news:publication_date>
+      <news:title>Dancers from Celebrated Disco Photo Reunited After Five Decades</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/imran-khan-supporters-begin-marches-after-talks-fail-1791212309698.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T14:58:29.698Z</news:publication_date>
+      <news:title>Imran Khan Supporters Begin Marches After Talks Fail</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/multan-records-historic-downpour-breaking-48-year-rainfall-record-1791179203913.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T05:46:39.913Z</news:publication_date>
+      <news:title>Multan Records Historic Downpour, Breaking 48-Year Rainfall Record</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/high-level-pakistani-delegation-in-riyadh-for-makkah-defence-pact-meet-1791179088997.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T05:44:47.997Z</news:publication_date>
+      <news:title>High-Level Pakistani Delegation in Riyadh for Makkah Defence Pact Meeting</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pti-long-march-enters-karak-cm-afridi-declares-resolve-1791179007269.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T05:43:27.269Z</news:publication_date>
+      <news:title>PTI Long March Enters Karak, CM Afridi Declares Resolve</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/fatima-sana-joins-perth-scorchers-for-womens-big-bash-league-1791133484902.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T17:04:43.902Z</news:publication_date>
+      <news:title>Fatima Sana Joins Perth Scorchers for Women’s Big Bash League</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/fatima-sana-joins-perth-scorchers-for-womens-big-bash-league-1791117421113.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T12:36:57.113Z</news:publication_date>
+      <news:title>Fatima Sana Joins Perth Scorchers for Women’s Big Bash League</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/56-pakistani-universities-feature-in-the-world-university-rankings-1791117343715.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T12:35:40.715Z</news:publication_date>
+      <news:title>56 Pakistani Universities Feature in THE World University Rankings</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/sbp-maintains-tight-policy-as-mid-term-inflation-target-remains-distan-1791117290976.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T12:34:48.977Z</news:publication_date>
+      <news:title>SBP Maintains Tight Policy as Mid-Term Inflation Target Remains Distant</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/dawn-reports-tv-hits-amid-cinematic-flops-in-pakistan-1791117242190.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T12:34:01.190Z</news:publication_date>
+      <news:title>Dawn Reports TV Hits Amid Cinematic Flops in Pakistan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/riot-police-clash-with-students-amid-french-education-protests-1791117215773.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T12:33:35.774Z</news:publication_date>
+      <news:title>Riot Police Clash with Students Amid French Education Protests</news:title>
+    </news:news>
+  </url>
 </urlset>

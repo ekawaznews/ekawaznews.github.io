@@ -1,0 +1,23 @@
+{
+  "name": "ek-awaz-news-automation",
+  "version": "6.0.0",
+  "private": true,
+  "description": "Ek Awaz News: Gemini-powered auto-publisher, page generator, ticker, sitemap and maintenance tools",
+  "scripts": {
+    "publish:a": "BATCH=A node autopost.js",
+    "publish:b": "BATCH=B node autopost.js",
+    "publish:c": "BATCH=C node autopost.js",
+    "publish:catchup": "BATCH=catchup node autopost.js",
+    "pages": "node generate-pages.js",
+    "ticker": "node update-ticker.js",
+    "sitemap": "node generate-sitemap.js",
+    "categories": "node fix-categories.js",
+    "fix": "node fix-existing-posts.js",
+    "backup": "node backup-posts.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "sharp": "^0.33.4"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,6 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://ekawaznews.github.io/news/sharjeel-memon-acquitted-in-longstanding-case-1791954375092.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-14T05:06:14.889Z</news:publication_date>
+      <news:title>Sharjeel Memon Acquitted in Longstanding Case</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-weather-forecast-regional-outlook-and-met-reports-1791954354019.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-14T05:05:53.999Z</news:publication_date>
+      <news:title>Pakistan Weather Forecast: Regional Outlook and Met Reports</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/sri-lanka-takes-final-t20i-after-pakistan-wins-series-1791954330176.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-14T05:05:30.173Z</news:publication_date>
+      <news:title>Sri Lanka takes final T20I after Pakistan wins series</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/emergency-rule-imposed-in-khyber-pakhtunkhwa-amid-protests-1791954282175.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-14T05:04:41.828Z</news:publication_date>
+      <news:title>Emergency Rule Imposed in Khyber Pakhtunkhwa Amid Protests</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/prime-minister-consults-coalition-partners-on-khyber-pakhtunkhwa-gover-1791954259144.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-14T05:04:19.058Z</news:publication_date>
+      <news:title>Prime Minister Consults Coalition Partners on Khyber Pakhtunkhwa Governance</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/daily-news-digest-train-mishap-and-missile-test-mark-october-13-1791912994077.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:36:33.702Z</news:publication_date>
+      <news:title>Daily News Digest: Train Mishap and Missile Test Mark October 13</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1791912930169.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:35:29.874Z</news:publication_date>
+      <news:title>ملتان کے قریب مسافر ٹرین کی پٹڑی سے اترنے سے پانچ افراد جاں بحق</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1791912866222.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:34:25.930Z</news:publication_date>
+      <news:title>ملتان میں ٹرین حادثہ، پانچ افراد جاں بحق</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1791912793570.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:33:13.514Z</news:publication_date>
+      <news:title>پنجاب میں ریل حادثہ، رحمان بابا ایکسپریس پٹڑی سے اتر گئی</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-army-conducts-successful-test-of-fatah-2-extended-range-missi-1791912711234.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:31:51.004Z</news:publication_date>
+      <news:title>Pakistan Army Conducts Successful Test of Fatah-2 Extended Range Missile</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/tragedy-in-karachi-after-five-family-members-found-dead-1791912162722.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:22:42.436Z</news:publication_date>
+      <news:title>Tragedy in Karachi After Five Family Members Found Dead</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/four-day-national-weather-outlook-1791911710192.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T17:15:10.008Z</news:publication_date>
+      <news:title>Four Day National Weather Outlook</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/indian-authorities-detain-youth-leaders-amidst-ongoing-protests-at-cap-1791890312529.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T11:18:32.034Z</news:publication_date>
+      <news:title>Indian Authorities Detain Youth Leaders Amidst Ongoing Protests at Capital Site</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/jordan-last-dance-jersey-fetches-record-sum-1791890274948.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T11:17:54.481Z</news:publication_date>
+      <news:title>Jordan Last Dance Jersey Fetches Record Sum</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/stock-exchange-drops-amid-political-strain-and-global-pressures-1791889888978.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T11:11:28.587Z</news:publication_date>
+      <news:title>Stock Exchange Drops Amid Political Strain and Global Pressures</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-urges-israeli-withdrawal-from-occupied-syrian-territory-1791889468682.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T11:04:28.664Z</news:publication_date>
+      <news:title>Pakistan Urges Israeli Withdrawal From Occupied Syrian Territory</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pacific-heat-record-points-toward-2026-becoming-warmest-year-1791888935417.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T10:55:35.079Z</news:publication_date>
+      <news:title>Pacific Heat Record Points Toward 2026 Becoming Warmest Year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/fatal-rollercoaster-incident-sparks-safety-closures-in-georgia-1791888843275.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13T10:54:03.232Z</news:publication_date>
+      <news:title>Fatal Rollercoaster Incident Sparks Safety Closures in Georgia</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://ekawaznews.github.io/news/ek-awaz-news-bulletin-fuel-updates-and-global-climate-1791859604880.html</loc>
     <news:news>
       <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
@@ -142,150 +286,6 @@
       <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-12T10:55:16.183Z</news:publication_date>
       <news:title>At Least 139 Migrants Perish After Overcrowded Vessel Sinks Off Djibouti Coast</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/karachi-commissioner-enforces-section-144-restrictions-1791766090506.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12T00:48:10.056Z</news:publication_date>
-      <news:title>Karachi Commissioner Enforces Section 144 Restrictions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/four-day-weather-outlook-across-major-cities-in-pakistan-1791765985790.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12T00:46:25.594Z</news:publication_date>
-      <news:title>Four Day Weather Outlook Across Major Cities in Pakistan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pakistan-defeat-sri-lanka-by-82-runs-in-rawalpindi-to-seal-series-1791765946378.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12T00:45:46.250Z</news:publication_date>
-      <news:title>Pakistan Defeat Sri Lanka by 82 Runs in Rawalpindi to Seal Series</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/emergency-imposed-in-khyber-pakhtunkhwa-as-provincial-administration-s-1791765898072.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12T00:44:57.770Z</news:publication_date>
-      <news:title>Emergency Imposed in Khyber Pakhtunkhwa as Provincial Administration Suspended</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/governors-rule-and-emergency-imposed-in-khyber-pakhtunkhwa-1791765829014.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12T00:43:48.703Z</news:publication_date>
-      <news:title>Governor's Rule and Emergency Imposed in Khyber Pakhtunkhwa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/federal-government-imposes-emergency-and-governor-rule-in-khyber-pakht-1791737207524.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:46:47.276Z</news:publication_date>
-      <news:title>Federal Government Imposes Emergency and Governor Rule in Khyber Pakhtunkhwa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/-1791737194475.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:46:34.193Z</news:publication_date>
-      <news:title>خیبر پختونخوا میں ایمرجنسی اور گورنر راج کا نفاذ کر دیا گیا</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/-1791737167181.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:46:07.155Z</news:publication_date>
-      <news:title>خیبر پختونخوا میں ایمرجنسی اور گورنر راج کا نفاذ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/-1791736978482.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:42:58.119Z</news:publication_date>
-      <news:title>خیبر پختونخوا میں ایمرجنسی اور گورنر راج کا نفاذ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/ttap-condemns-governor-rule-and-emergency-in-kp-1791736835369.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:40:35.286Z</news:publication_date>
-      <news:title>TTAP Condemns Governor Rule and Emergency in KP</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/police-arrest-main-suspect-in-amritsar-murder-of-meed-sindhu-1791735774886.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:22:54.861Z</news:publication_date>
-      <news:title>Police Arrest Main Suspect in Amritsar Murder of Meed Sindhu</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pakistan-four-day-weather-outlook-and-forecast-data-1791734620429.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T16:03:39.972Z</news:publication_date>
-      <news:title>Pakistan Four-Day Weather Outlook and Forecast Data</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/federal-government-imposes-emergency-and-governor-rule-in-khyber-pakht-1791713961111.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T10:19:20.716Z</news:publication_date>
-      <news:title>Federal Government Imposes Emergency and Governor Rule in Khyber Pakhtunkhwa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/riyadh-airport-attack-draws-swift-global-and-pakistani-condemnation-1791713403344.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T10:10:03.115Z</news:publication_date>
-      <news:title>Riyadh Airport Attack Draws Swift Global and Pakistani Condemnation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/world-bank-findings-highlight-deep-poverty-across-pakistan-amid-succes-1791713283253.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T10:08:03.005Z</news:publication_date>
-      <news:title>World Bank Findings Highlight Deep Poverty Across Pakistan Amid Successive Crises</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pm-orders-arrest-in-islamabad-student-suicide-case-involving-visa-frau-1791713207784.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T10:06:47.389Z</news:publication_date>
-      <news:title>PM Orders Arrest in Islamabad Student Suicide Case Involving Visa Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/thousands-march-across-european-cities-calling-for-an-end-to-gaza-stri-1791713165895.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T10:06:05.503Z</news:publication_date>
-      <news:title>Thousands March Across European Cities Calling for an End to Gaza Strikes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/federal-government-imposes-governor-rule-and-emergency-in-kp-1791713089876.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-11T10:04:49.648Z</news:publication_date>
-      <news:title>Federal Government Imposes Governor Rule and Emergency in KP</news:title>
     </news:news>
   </url>
 </urlset>

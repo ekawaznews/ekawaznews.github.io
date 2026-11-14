@@ -1,6 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://ekawaznews.github.io/news/icc-narrows-scope-of-afghanistan-investigation-1794621259860.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-14T01:54:19.451Z</news:publication_date>
+      <news:title>ICC Narrows Scope of Afghanistan Investigation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-weather-outlook-and-news-update-1794621228656.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-14T01:53:48.176Z</news:publication_date>
+      <news:title>Pakistan Weather Outlook And News Update</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-and-sri-lanka-draw-first-test-in-rawalpindi-1794621219183.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-14T01:53:39.047Z</news:publication_date>
+      <news:title>Pakistan and Sri Lanka Draw First Test in Rawalpindi</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-cuts-petrol-price-by-rs2-per-litre-while-keeping-diesel-rate--1794621131578.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-14T01:52:11.497Z</news:publication_date>
+      <news:title>Pakistan Cuts Petrol Price by Rs2 per Litre While Keeping Diesel Rate Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/barrick-mining-explores-mineral-processing-investments-in-karachi-and--1794621088023.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-14T01:51:27.892Z</news:publication_date>
+      <news:title>Barrick Mining Explores Mineral Processing Investments in Karachi and Gwadar</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/national-news-round-up-security-sports-and-climate-diplomacy-1794591423932.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:37:03.855Z</news:publication_date>
+      <news:title>National News Round-Up: Security, Sports, and Climate Diplomacy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1794591399515.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:36:39.072Z</news:publication_date>
+      <news:title>خیبر پختونخوا اور بلوچستان میں کارروائیاں، چوہتر شدت پسند ہلاک</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1794591380557.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:36:20.529Z</news:publication_date>
+      <news:title>راولپنڈی ٹیسٹ ڈرا، پاکستان اور سری لنکا کا مقابلہ ختم</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/-1794591303963.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:35:03.514Z</news:publication_date>
+      <news:title>راولپنڈی ٹیسٹ ڈرا، پاکستان اور سری لنکا کا مقابلہ بے نتیجہ ختم</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/islamabad-high-court-halts-local-government-polls-amid-legal-dispute-1794591177399.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:32:57.214Z</news:publication_date>
+      <news:title>Islamabad High Court Halts Local Government Polls Amid Legal Dispute</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pm-shehbaz-advocates-grant-based-climate-funding-at-cop31-1794590947354.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:29:07.240Z</news:publication_date>
+      <news:title>PM Shehbaz Advocates Grant-Based Climate Funding at COP31</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/pakistan-four-day-weather-outlook-and-cricket-match-draw-1794590810956.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T17:26:50.818Z</news:publication_date>
+      <news:title>Pakistan Four-Day Weather Outlook and Cricket Match Draw</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/russell-brand-begins-10-year-sentence-at-wandsworth-prison-1794569603499.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T11:33:23.036Z</news:publication_date>
+      <news:title>Russell Brand Begins 10-Year Sentence at Wandsworth Prison</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/weekly-inflation-drops-046-as-fuel-prices-decline-1794569243140.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T11:27:23.140Z</news:publication_date>
+      <news:title>Weekly Inflation Drops 0.46% as Fuel Prices Decline</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/australia-defeats-england-in-perth-one-day-match-1794569069976.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T11:24:29.953Z</news:publication_date>
+      <news:title>Australia Defeats England in Perth One Day Match</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/delhi-surpasses-lahore-in-global-air-pollution-rankings-1794568921957.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T11:22:01.575Z</news:publication_date>
+      <news:title>Delhi surpasses Lahore in global air pollution rankings</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/national-resources-limited-identifies-copper-and-gold-sites-in-chagai-1794568719501.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T11:18:39.429Z</news:publication_date>
+      <news:title>National Resources Limited Identifies Copper and Gold Sites in Chagai</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://ekawaznews.github.io/news/nvidia-ceo-jensen-huang-resigns-amid-congressional-summons-and-extrama-1794567944507.html</loc>
+    <news:news>
+      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T11:05:44.230Z</news:publication_date>
+      <news:title>Nvidia CEO Jensen Huang Resigns Amid Congressional Summons and Extramarital Probe</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://ekawaznews.github.io/news/pakistan-minerals-investment-forum-2026-begins-in-islamabad-1794536332956.html</loc>
     <news:news>
       <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
@@ -142,150 +286,6 @@
       <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-12T11:19:45.488Z</news:publication_date>
       <news:title>US Sentinel Reprimands Defence Delegation at Arlington Memorial</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/ek-awaz-news-bulletin-security-politics-and-public-issues-1794451178990.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-12T02:39:38.804Z</news:publication_date>
-      <news:title>Ek Awaz News Bulletin: Security, Politics and Public Issues</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pakistan-four-day-weather-forecast-and-financial-resilience-1794451152975.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-12T02:39:12.943Z</news:publication_date>
-      <news:title>Pakistan Four Day Weather Forecast and Financial Resilience</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/sri-lanka-fights-back-on-day-three-in-rawalpindi-test-1794451143845.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-12T02:39:03.355Z</news:publication_date>
-      <news:title>Sri Lanka Fights Back on Day Three in Rawalpindi Test</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/federal-constitutional-court-dismisses-395-super-tax-review-petitions-1794451103878.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-12T02:38:23.508Z</news:publication_date>
-      <news:title>Federal Constitutional Court Dismisses 395 Super Tax Review Petitions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pm-shehbaz-sharif-outlines-solar-boom-at-cop31-summit-1794450983593.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-12T02:36:23.339Z</news:publication_date>
-      <news:title>PM Shehbaz Sharif Outlines Solar Boom at COP31 Summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/daily-news-digest-11-november-2026-reports-1794419073519.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:44:33.496Z</news:publication_date>
-      <news:title>Daily News Digest: 11 November 2026 Reports</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/-1794419058121.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:44:17.745Z</news:publication_date>
-      <news:title>راولپنڈی ٹیسٹ: سری لنکا کا مضبوط جواب اور میچ کی صورتحال</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/-1794418985333.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:43:05.080Z</news:publication_date>
-      <news:title>کوہاٹ میں غیر قانونی کان کنی کیخلاف آپریشن، ڈی ایس پی سمیت دس اہلکار شہید</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/-1794418904680.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:41:44.405Z</news:publication_date>
-      <news:title>سری لنکا کے خلاف دوسرا ٹیسٹ لاہور سے راولپنڈی منتقل کر دیا گیا</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/chaudhry-salik-stands-by-punjab-corruption-claims-despite-defamation-n-1794418704057.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:38:23.942Z</news:publication_date>
-      <news:title>Chaudhry Salik Stands by Punjab Corruption Claims Despite Defamation Notice</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pti-founder-imran-khan-undergoes-eye-treatment-at-pims-hospital-1794418659112.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:37:38.749Z</news:publication_date>
-      <news:title>PTI Founder Imran Khan Undergoes Eye Treatment at PIMS Hospital</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pakistan-weather-outlook-and-climate-financing-developments-1794418488110.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T17:34:47.919Z</news:publication_date>
-      <news:title>Pakistan Weather Outlook and Climate Financing Developments</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/former-malaysian-leader-najib-razak-transferred-to-house-arrest-1794397888235.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T11:51:28.032Z</news:publication_date>
-      <news:title>Former Malaysian Leader Najib Razak Transferred to House Arrest</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pcb-shifts-sri-lanka-test-to-rawalpindi-due-to-lahore-smog-1794397543343.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T11:45:43.060Z</news:publication_date>
-      <news:title>PCB Shifts Sri Lanka Test to Rawalpindi Due to Lahore Smog</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/senate-panel-orders-fbr-to-submit-records-on-fata-tax-waivers-1794397017063.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T11:36:56.720Z</news:publication_date>
-      <news:title>Senate Panel Orders FBR to Submit Records on FATA Tax Waivers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/pm-shehbaz-sharif-arrives-at-cop31-summit-in-antalya-1794396322020.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T11:25:21.915Z</news:publication_date>
-      <news:title>PM Shehbaz Sharif Arrives at COP31 Summit in Antalya</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/uk-police-confirm-russell-brand-was-ordered-out-of-jemima-goldsmith-ho-1794396076648.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T11:21:16.434Z</news:publication_date>
-      <news:title>UK Police Confirm Russell Brand Was Ordered Out of Jemima Goldsmith Home in 2014</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://ekawaznews.github.io/news/us-house-defeats-effort-to-impeach-defense-chief-pete-hegseth-1794395715313.html</loc>
-    <news:news>
-      <news:publication><news:name>Ek Awaz News</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T11:15:14.916Z</news:publication_date>
-      <news:title>US House Defeats Effort to Impeach Defense Chief Pete Hegseth</news:title>
     </news:news>
   </url>
 </urlset>

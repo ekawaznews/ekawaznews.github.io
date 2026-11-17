@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ekawaznews.github.io/</loc><lastmod>2026-11-16</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ekawaznews.github.io/about.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://ekawaznews.github.io/contact.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://ekawaznews.github.io/privacy.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=politics</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=government</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=sports</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=entertainment</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=weather</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=international</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=national</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=editorials</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=columns</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ekawaznews.github.io/?cat=bulletins</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/</loc><lastmod>2026-11-17</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ekawaznews.github.io/about.html</loc><lastmod>2026-11-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ekawaznews.github.io/contact.html</loc><lastmod>2026-11-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ekawaznews.github.io/privacy.html</loc><lastmod>2026-11-17</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=politics</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=government</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=sports</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=entertainment</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=weather</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=international</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=national</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=editorials</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=columns</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/?cat=bulletins</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/daily-news-bulletin-economic-updates-and-global-entertainment-headline-1794889014746.html</loc><lastmod>2026-11-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/november-climate-outlook-and-shifting-political-alliances-across-pakis-1794888964345.html</loc><lastmod>2026-11-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/alcaraz-dominates-opening-match-at-atp-finals-in-turin-1794888808459.html</loc><lastmod>2026-11-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/imran-khan-appeals-to-top-judges-for-urgent-medical-care-in-open-lette-1794888698373.html</loc><lastmod>2026-11-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/imran-khan-petitions-top-judiciary-for-medical-care-amid-health-concer-1794888567587.html</loc><lastmod>2026-11-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/lawyers-file-affidavits-and-medical-request-for-bushra-bibi-in-high-co-1794868427261.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/daily-news-digest-leadership-diplomacy-and-regional-updates-1794859510083.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/-1794859483252.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/-1794859473791.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/-1794859437674.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/punjab-chief-minister-orders-new-anti-rape-law-and-speedy-courts-1794859331936.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/pakistan-weather-outlook-four-day-regional-forecast-1794859238590.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/pakistan-proposes-virtual-green-university-and-youth-fund-at-cop31-sum-1794847081714.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/nvidia-crisis-deepens-as-megaspeed-clarifies-timeline-of-ex-executive-1794830198628.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/jay-shah-re-elected-unopposed-as-icc-chairman-for-second-term-1794830064097.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/saudi-pakistan-private-equity-fund-faces-local-readiness-hurdles-1794830019610.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/islamabad-court-remands-suspects-in-fatima-asghar-case-1794829767842.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekawaznews.github.io/news/megaspeed-clarifies-role-of-alice-huang-amid-global-probe-1794829158981.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ekawaznews.github.io/news/pakistan-pitches-global-climate-ventures-at-cop31-1794792497244.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ekawaznews.github.io/news/pakistan-weather-outlook-and-rural-sindh-water-financing-1794792482694.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ekawaznews.github.io/news/south-korean-tax-exam-scandal-shakes-authorities-1794792468566.html</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
